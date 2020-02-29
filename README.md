@@ -17,7 +17,8 @@ python presentation.py
 ```
 
 # Contents
-https://kazuhito00.github.io/presentation-2020/presentation_document/20200229_PyCon_mini_Shizuoka/webslides/index.html#slide=1
+## 【PyCon mini Shizuoka2020】EeLとWebSlidesで一味違う画像処理のプレゼン
+https://kazuhito00.github.io/presentation-2020/presentation_document/20200229_PyCon_mini_Shizuoka/webslides/index.html
 
 
 # Author
