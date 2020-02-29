@@ -17,7 +17,7 @@ python presentation.py
 ```
 
 # Contents
-https://kazuhito00.github.io/presentation-2020/tree/master/presentation_document/20200229_PyCon_mini_Shizuoka/webslides/index.html
+https://kazuhito00.github.io/presentation-2020/presentation_document/20200229_PyCon_mini_Shizuoka/webslides/index.html#slide=1
 
 
 # Author
