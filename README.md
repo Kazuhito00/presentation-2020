@@ -1,5 +1,5 @@
 # presentation-2020
- presentation-2020‚Íopencv2webslides‚ğ—p‚¢‚½ƒvƒŒƒ[ƒ“ƒe[ƒVƒ‡ƒ“‘—¿‚ğ‚Ü‚Æ‚ß‚½ƒŠƒ|ƒWƒgƒŠ‚Å‚·B
+ presentation-2020ã¯opencv2webslidesã‚’ç”¨ã„ãŸãƒ—ãƒ¬ã‚¼ãƒ³ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³è³‡æ–™ã‚’ã¾ã¨ã‚ãŸãƒªãƒã‚¸ãƒˆãƒªã§ã™ã€‚
 
 # Requirement
  
@@ -9,8 +9,8 @@
  
 # Usage
  
-presentation_documentƒfƒBƒŒƒNƒgƒŠ‚Ì”z‰º‚ÉƒvƒŒƒ[ƒ“ƒe[ƒVƒ‡ƒ“‘—¿‚ªŠi”[‚³‚ê‚Ä‚¢‚Ü‚·B
-Šm”F‚µ‚½‚¢‘—¿‚ÌƒfƒBƒŒƒNƒgƒŠ‚É‚ÄˆÈ‰º‚ÌPythonƒvƒƒOƒ‰ƒ€‚ğÀs‚µ‚Ä‚­‚¾‚³‚¢B
+presentation_documentãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã®é…ä¸‹ã«ãƒ—ãƒ¬ã‚¼ãƒ³ãƒ†ãƒ¼ã‚·ãƒ§ãƒ³è³‡æ–™ãŒæ ¼ç´ã•ã‚Œã¦ã„ã¾ã™ã€‚
+ç¢ºèªã—ãŸã„è³‡æ–™ã®ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«ã¦ä»¥ä¸‹ã®Pythonãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’å®Ÿè¡Œã—ã¦ãã ã•ã„ã€‚
  
 ```bash
 python presentation.py
@@ -21,9 +21,7 @@ https://kazuhito00.github.io/presentation/tree/master/presentation_document/2020
 
 
 # Author
-‚‹´‚©‚¸‚Ğ‚Æ(https://twitter.com/KzhtTkhs)
+é«˜æ©‹ã‹ãšã²ã¨(https://twitter.com/KzhtTkhs)
  
 # License 
 cvfpscalc is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
-
-
