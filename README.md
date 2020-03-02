@@ -35,7 +35,6 @@ python presentation.py
 
 資料：[SpeakerDeck](https://speakerdeck.com/kazuhitotakahashi/ngk2020s-image-processing-presentation) / [Youtube](https://youtu.be/yNpvhuMLjgg)
 
-備考：リアルタイムデモで使用しているChicagoフォント(http://fonts3.com/fonts/c/Chicago.html) の再配布規約が不明なため、本リポジトリには含まれません。
 
 # Author
 高橋かずひと(https://twitter.com/KzhtTkhs)
