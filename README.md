@@ -27,6 +27,7 @@ python presentation.py
 
 備考：リアルタイムデモで使用しているChicagoフォント(http://fonts3.com/fonts/c/Chicago.html) の再配布規約が不明なため、本リポジトリには含まれません。
 
+
 ## 【NGK2020S】市販のプレゼンソフトに満足できなくなったお話（画像処理編）
 ![2020-03-03_3](https://user-images.githubusercontent.com/37477845/75695187-09d24080-5ced-11ea-9f4c-8a754b33b997.png)
 
