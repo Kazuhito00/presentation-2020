@@ -1,0 +1,287 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- CSS Base -->
+        <link rel="stylesheet" type='text/css' media='all' href="./static/css/webslides.css"/>
+        <!-- Optional - CSS SVG Icons (Font Awesome) -->
+        <link rel="stylesheet" type='text/css' media='all' href="./static/css/svg-icons.css"/>
+        <link rel="shortcut icon" sizes="16x16" href="favicon.png">
+        <script type="text/javascript" src="/eel.js"></script>
+    </head>
+    <body>
+
+        <article id="webslides" class="bg-light">
+            <!--セッション：EelとWebSlidesで一味違う画像処理のプレゼン-->
+            <!--スライド-->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/00.gif')"></span>
+            </section>
+            <!--スライド-->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/01.png')"></span>
+                <div class="wrap">
+                    <div>
+                        <font color="#0091ea"><h1>PyCon mini Shizuokaで<br>オンライン発表してきました</h1></font>
+                        <font color="#0091ea"><h3><br>Python東海 2020/3/7(土)</h3></font>
+                    </div>
+                </div>
+            </section>
+            <!--スライド-->
+            <section>
+                <span class="background" style="background-image:url('./image/05.gif')"></span>
+                <div class="wrap">
+                    <div class="wrap">
+                        <h1 class="aligncenter">お前、誰よ？</h1>
+                        <div class="grid">
+                            <div class="column">
+                            </div>
+                            <div class="column">
+                                <h4>名前：高橋かずひと</h4>
+                                <h4>Python歴：そろそろ5年？</h4>
+                                <h4>Twitter：@KzhtTkhs</h4>
+                                <h4>お仕事：組込、画像処理、<br>　　　：IoT、Webアプリなど</h4>
+                                <br>
+                                <h5>その他、個人の活動で、インディーゲーム制作のお手伝をしています。</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--スライド-->
+            <section class="bg-blue aligncenter fullscreen">
+                <div class="embed">
+                    <video class="background-video dark" autoplay muted loop poster="./image/2019production.png">
+                        <source src="./image/2019production.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="wrap">
+                    <h3 ><code>最近はディープラーニング(主に物体検出)やＡＲでよく遊んでいます。</code></h3>
+                </div>
+            </section>
+            <!--スライド-->
+            <section>
+                <span class="background" style="background-image:url('./image/02.png')"></span>
+                <div class="wrap">
+                    <div class="content-center">
+                        <h1>何を発表してきたの？</h1>
+                    </div>
+                </div>
+            </section>
+            <!--スライド-->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/02.png')"></span>
+                <div class="wrap">
+                    <div>
+                        <h2>「EeLとWebSlidesで一味違う画像処理のプレゼン」<br>と言うタイトルで発表してきました😀</h2>
+                        <h2><br>Pycon mini Shizuokaのテーマ:「あなたの知らないPython」</h2>
+                    </div>
+                </div>
+            </section>
+            <!--スライド-->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/02.png')"></span>
+                <div class="wrap">
+                  <img id="python_video" class="alignright size-50" src="./image/noimage.png">
+                  <h2><br>こんな感じのデモを<br>発表してきました。</h2>
+                  <h2><br>スライド中に<br>リアルタイムデモを<br>埋め込んでいます。</h2>
+                </div>
+            </section>
+            <!--スライド-->
+            <section>
+                <span class="background" style="background-image:url('./image/02.png')"></span>
+                <div class="wrap">
+                <img class="alignleft size-60" src="./image/architecture01.png">
+                <br>
+                <br>
+                <h2>システム構成 概要</h2>
+                <p><code>System architecture overview</code></p>
+                <br>
+                <br>
+                <br>
+                <h4><strong>WebSlides：1.5.0</strong></h4>
+                <h4><strong>OpenCV：4.1.2</strong></h4>
+                <h4><strong>Eel：0.11.0</strong></h4>
+                <h4><strong>Webカメラ</strong></h4>
+            </section>
+            <!--スライド-->
+            <section>
+                <span class="background" style="background-image:url('./image/02.png')"></span>
+                <div class="grid vertical-align">
+                    <div class="column">
+                        <img class="alignleft size-100" src="./image/architecture01.png">
+                    </div>
+                    <div class="column">
+                        <strong><pre>
+import eel
+import cv2 as cv
+import base64
+
+cap = cv.VideoCapture(0)
+
+<span class="code-comment"># EeLフォルダ設定、および起動</span>
+eel.init('webslides')
+eel.start('index.html', mode='chrome', block=False)
+
+while True:
+    eel.sleep(0.01)
+
+<span class="code-comment">    # カメラキャプチャ</span>
+    ret, frame = cap.read()
+    if not ret:
+        continue
+
+<span class="code-comment">    # UI側へ渡す</span>
+    _, imencode_image = cv.imencode('.jpg', draw_image)
+    base64_image = base64.b64encode(imencode_image)
+    
+    eel.set_base64image("data:image/jpg;base64," + base64_image.decode("ascii"))
+                        </pre></strong>
+                    </div>
+                </div>
+                <!-- .end .column -->
+                </div>
+                <!-- .end .grid -->
+            </section>
+            <!--スライド-->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/02.png')"></span>
+                <div class="wrap">
+                    <div>
+                        <h1>なんと、たったコレだけの行数で実現できました🙃</h1>
+                    </div>
+                </div>
+            </section>
+            <!--スライド-->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/02.png')"></span>
+                <div class="wrap">
+                    <div>
+                        <h1>つまり🤢</h1>
+                    </div>
+                </div>
+            </section>
+            <!--スライド-->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/02.png')"></span>
+                <div class="wrap">
+                    <div>
+                        <h1>超時間余った🤮</h1>
+                        <h1>30分の発表時間中、20分で完走🏃！</h1>
+                    </div>
+                </div>
+            </section>
+            <!--スライド-->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/02.png')"></span>
+                <div class="wrap">
+                    <div>
+                        <h5><br>いや、言い訳すると聞いている方の反応を見て<br>問いかけたり、ボケたりするネタとか<br>EelのTips的の紹介なの考えてたのですけど、、、<br>発表直前でマイクがONにならないトラブルがあって頭からネタが消失したorz</h5>
+                        <h5>※リハでは毎回25分強くらい</h5>
+                    </div>
+                </div>
+            </section>
+            <!--スライド-->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/02.png')"></span>
+                <div class="wrap">
+                  <img class="alignright size-50" src="./image/Earntime.jpg">
+                  <h4><br>豊橋のスタートアップガレージにて<br>発表者数人で共同配信していたのですが、、、</h4>
+                  <h4><br>他の発表者の方を巻き込んで<br>デモし続けるという頭の悪い時間稼ぎを、、、</h4>
+                </div>
+            </section>
+            <!--スライド-->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/02.png')"></span>
+                <div class="wrap">
+                    <div>
+                        <h1>まとめ</h1>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <h2><li>オンラインでの発表は、反応が分からなくて超難しい😑</li></h2>
+                    </div>
+                </div>
+            </section>
+            <!--スライド-->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/02.png')"></span>
+                <div class="wrap">
+                    <div>
+                        <h1>ちなみに、基本となるソースは<br>以下のリポジトリで公開しています🙂</h1>
+                        <br>
+                        <h3>https://github.com/Kazuhito00/opencv2webslides-sample</h3>
+                    </div>
+                </div>
+            </section>
+            <!--スライド-->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/02.png')"></span>
+                <div class="wrap">
+                    <div>
+                        <h1>今後の課題</h1>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <h2><li>スライドの共有が非常に大変……</li></h2>
+                        <br>
+                        <br>
+                        <h2><li>スライドの共有が非常に大変……</li></h2>
+                        <br>
+                        <br>
+                        <h2><li>スライドの共有が非常に大変……</li></h2>
+                    </div>
+                </div>
+            </section>
+            <!--スライド-->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/02.png')"></span>
+                <div class="wrap">
+                    <div>
+                        <h1>ちなみに、Pycon mini Shizuokaの資料は<br>GithubにPythonもHtmlも丸ごとコミットして<br>Github Pagesで公開しています（あとYoutube</h1>
+                        <br>
+                        <h3>https://kazuhito00.github.io/presentation-2020/presentation_document/20200229_PyCon_mini_Shizuoka/webslides/index.html</h3>
+                    </div>
+                </div>
+            </section>
+            <!--スライド-->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/02.png')"></span>
+                <div class="wrap">
+                    <div>
+                        <h1>ご清聴ありがとうございました🙂</h1>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <!-- Required -->
+        <script src="./static/js/webslides.js"></script>
+        <script>
+            window.ws = new WebSlides({showIndex:false});
+            window.ws.el.addEventListener('ws:slide-change', slideChangeEvent);
+
+            function slideChangeEvent(event) {
+                console.log("#section:" + event.detail.currentSlide0);
+                eel.slide_change_event(event.detail.currentSlide0)
+            }
+
+            eel.expose(set_base64image);
+            function set_base64image(base64image) {
+                document.getElementById("python_video").src = base64image;
+            }
+                        
+            eel.expose(go_nextslide);
+            function go_nextslide() {
+                window.ws.goNext();
+            }
+        </script>
+
+        <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+        <script defer src="./static/js/svg-icons.js"></script>
+    </body>
+</html>
