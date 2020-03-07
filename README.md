@@ -18,7 +18,17 @@ python presentation.py
 ```
 
 # Contents
-## 【PyCon mini Shizuoka2020】EeLとWebSlidesで一味違う画像処理のプレゼン
+## 3/7：【Python東海】PyCon mini Shizuokaでオンライン発表してきました
+![2020-03-07 (6)](https://user-images.githubusercontent.com/37477845/76138263-849eb100-6089-11ea-8147-d960e9c8d2ff.png)
+
+パス：presentation_document/20200307_PythonTokai/
+
+資料：[GitHub Pages](https://kazuhito00.github.io/presentation-2020/presentation_document/20200307_PythonTokai/webslides/index.html)
+
+備考：「2/29：【PyCon mini Shizuoka2020】EeLとWebSlidesで一味違う画像処理のプレゼン」と比べて特に目新しい情報は無いです。
+
+
+## 2/29：【PyCon mini Shizuoka2020】EeLとWebSlidesで一味違う画像処理のプレゼン
 ![PyConMiniShizuoka2020](https://user-images.githubusercontent.com/37477845/75611121-fc854c80-5b5a-11ea-9c6e-85314378d088.png)
 
 パス：presentation_document/20200229_PyCon_mini_Shizuoka
@@ -28,7 +38,7 @@ python presentation.py
 備考：リアルタイムデモで使用しているChicagoフォント(http://fonts3.com/fonts/c/Chicago.html) の再配布規約が不明なため、本リポジトリには含まれません。
 
 
-## 【NGK2020S】市販のプレゼンソフトに満足できなくなったお話（画像処理編）
+## 1/18：【NGK2020S】市販のプレゼンソフトに満足できなくなったお話（画像処理編）
 ![2020-03-03_3](https://user-images.githubusercontent.com/37477845/75695187-09d24080-5ced-11ea-9f4c-8a754b33b997.png)
 
 パス：presentation_document/20200118_NGK2020S
