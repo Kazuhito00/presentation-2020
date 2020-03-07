@@ -23,7 +23,7 @@ python presentation.py
 
 パス：presentation_document/20200307_PythonTokai/
 
-資料：[GitHub Pages](https://kazuhito00.github.io/presentation-2020/presentation_document/20200307_PythonTokai/webslides/index.html)
+資料：[GitHub Pages](https://kazuhito00.github.io/presentation-2020/presentation_document/20200307_PythonTokai/webslides/index.html#slide=2)
 
 備考：「[2/29：【PyCon mini Shizuoka2020】EeLとWebSlidesで一味違う画像処理のプレゼン](https://github.com/Kazuhito00/presentation-2020#229pycon-mini-shizuoka2020eel%E3%81%A8webslides%E3%81%A7%E4%B8%80%E5%91%B3%E9%81%95%E3%81%86%E7%94%BB%E5%83%8F%E5%87%A6%E7%90%86%E3%81%AE%E3%83%97%E3%83%AC%E3%82%BC%E3%83%B3)」と比べて特に目新しい情報は無いです。
 
