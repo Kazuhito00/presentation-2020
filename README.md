@@ -19,7 +19,7 @@ python presentation.py
 
 # Contents
 ## 3/7：【Python東海】PyCon mini Shizuokaでオンライン発表してきました
-![2020-03-07 (6)](https://user-images.githubusercontent.com/37477845/76138263-849eb100-6089-11ea-8147-d960e9c8d2ff.png)
+![2020-03-07 (6)](https://user-images.githubusercontent.com/37477845/76138364-874dd600-608a-11ea-9187-65ea5252c2d8.png)
 
 パス：presentation_document/20200307_PythonTokai/
 
