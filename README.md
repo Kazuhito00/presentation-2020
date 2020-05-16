@@ -1,7 +1,7 @@
 # presentation-2020
- presentation-2020はopencv2webslidesを用いたプレゼンテーション資料をまとめたリポジトリです。
+ presentation-2020はopencv2webslidesやJupyter notebook(RISE)を用いたプレゼンテーション資料をまとめたリポジトリです。
 
-# Requirement
+# Requirement(opencv2webslides)
  
 * OpenCV 3.4.2
 * Eel 0.11.0
@@ -17,7 +17,17 @@ presentation_documentディレクトリの配下にプレゼンテーション�
 python presentation.py
 ```
 
+Jupyter notebookのプレゼンテーションはローカルにダウンロードしてJupyterで開くか、Binderのリンクからご確認ください。
+
 # Contents
+## 5/16：【Pythonデータ分析勉強会#19】PyCaretでkaggleにチャレンジ中 
+![01](https://user-images.githubusercontent.com/37477845/82119300-33611b00-97b8-11ea-80d2-227ea98af64f.jpg)
+
+パス：presentation_document/20200516_PythonDataAnalysis/presentation.ipynb
+
+資料： [Binder](https://mybinder.org/v2/gh/Kazuhito00/presentation-2020/master?filepath=presentation_document/20200516_PythonDataAnalysis/presentation.ipynb) / [SpeakerDeck](https://speakerdeck.com/kazuhitotakahashi/pythondataanalysis-number-19-pycaret) / [Youtube](https://youtu.be/A68MpmaLyr0)
+
+
 ## 3/7：【Python東海】PyCon mini Shizuokaでオンライン発表してきました
 ![2020-03-07 (6)](https://user-images.githubusercontent.com/37477845/76138364-874dd600-608a-11ea-9187-65ea5252c2d8.png)
 
