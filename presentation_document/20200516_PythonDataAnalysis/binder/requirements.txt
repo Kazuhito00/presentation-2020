@@ -1,6 +1,5 @@
-opencv-python
 numpy
 pandas
+pandas_profiling
 pycaret
-matplotlib
 rise
