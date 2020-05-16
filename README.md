@@ -27,6 +27,8 @@ Jupyter notebookのプレゼンテーションはローカルにダウンロー�
 
 資料： [Binder](https://mybinder.org/v2/gh/Kazuhito00/presentation-2020/master?filepath=presentation_document/20200516_PythonDataAnalysis/presentation.ipynb) / [SpeakerDeck](https://speakerdeck.com/kazuhitotakahashi/pythondataanalysis-number-19-pycaret) / [Youtube](https://youtu.be/A68MpmaLyr0)
 
+Binderでお試しする際には、①を実行後、②のボタン押下でスライドを開始してください。
+![02](https://user-images.githubusercontent.com/37477845/82120221-8b4f5000-97bf-11ea-9137-20a12472ca26.jpg)
 
 ## 3/7：【Python東海】PyCon mini Shizuokaでオンライン発表してきました
 ![2020-03-07 (6)](https://user-images.githubusercontent.com/37477845/76138364-874dd600-608a-11ea-9187-65ea5252c2d8.png)
