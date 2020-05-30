@@ -20,6 +20,13 @@ python presentation.py
 Jupyter notebookのプレゼンテーションはローカルにダウンロードしてJupyterで開くか、Binderのリンクからご確認ください。
 
 # Contents
+## 5/30：【OSC2020 Online Nagoya】Jupyter Notebookでプレゼンテーション - 画像処理編 -
+![top](https://user-images.githubusercontent.com/37477845/83318355-09573080-a26f-11ea-9b8b-4b27338aed2d.png)
+
+パス：presentation_document/20200530_OSC2020_Online_Nagoya/presentation.ipynb
+
+資料： [SpeakerDeck](https://speakerdeck.com/kazuhitotakahashi/jupyter-notebook-presentation-for-image-processing) / [Youtube](https://youtu.be/cl1XwxGLBf4)
+
 ## 5/16：【Pythonデータ分析勉強会#19】PyCaretでkaggleにチャレンジ中 
 ![01](https://user-images.githubusercontent.com/37477845/82119300-33611b00-97b8-11ea-80d2-227ea98af64f.jpg)
 
