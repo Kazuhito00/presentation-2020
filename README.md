@@ -27,7 +27,7 @@ Jupyter notebookのプレゼンテーションはローカルにダウンロー�
 
 資料： [SpeakerDeck](https://speakerdeck.com/kazuhitotakahashi/jupyter-notebook-presentation-for-image-processing) / [Youtube](https://youtu.be/cl1XwxGLBf4)
 
-また、動画内のデモに[posenet-python](https://github.com/rwightman/posenet-python)を利用しています。
+また、動画内のデモに[posenet-python](https://github.com/rwightman/posenet-python)を利用しています。<br>
 posenet-pythonは[Apache2.0](https://github.com/rwightman/posenet-python/blob/master/LICENSE.txt)ライセンスです。
 
 ## 5/16：【Pythonデータ分析勉強会#19】PyCaretでkaggleにチャレンジ中 
