@@ -1,0 +1,300 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+        <!--<link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">-->
+        <!-- CSS Base -->
+        <link rel="stylesheet" type='text/css' media='all' href="./static/css/webslides.css"/>
+        <!-- Optional - CSS SVG Icons (Font Awesome) -->
+        <link rel="stylesheet" type='text/css' media='all' href="./static/css/svg-icons.css"/>
+        <link rel="shortcut icon" sizes="16x16" href="favicon.png">
+        <script type="text/javascript" src="/eel.js"></script>
+    </head>
+    <body>
+
+        <article id="webslides" class="vertical .bg-white">
+            <!-- スライド -->
+            <section class="slide-top">
+                <span class="background" style="background-image:url('./image/69-01.png')"></span>
+                <div class="content-center">
+                    <h2>【<strong>Pythonデータ分析勉強会＃23</strong>】</h2>
+                    <h2><strong>Hand Detectionを色々試してみた</strong></h2>
+                    <h2><strong>2020年：EfficientDet-D0</strong>版</h2>
+                </div>
+            </section>
+            <!-- スライド -->
+            <section>
+                <span class="background" style="background-image:url('./image/69-02.png')"></span>
+                <div class="wrap">
+                  <h2 class="aligncenter">お前、誰よ？</h2>
+                  <hr>
+                  <div class="grid">
+                    <div class="column">
+                        <img class="aligncenter size-30" src="./image/fish.gif">
+                    </div>
+                    <div class="column vertical-align">
+                        <h4>名前：高橋かずひと</h4>
+                        <h4><strong>Twitter：@KzhtTkhs</strong></h4>
+                        <h4>お仕事：組込、画像処理、<strong>IoT</strong>、<strong>Web</strong></h4>
+                        <h5>個人でインディーゲーム制作お手伝いしてます。</h5>
+                    </div>
+                  </div>
+                </div>
+            </section>
+            <!-- スライド -->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/69-02.png')"></span>
+                <div class="wrap">
+                    <h2>出没先</h2>
+                    <hr>
+                  <div class="grid">
+                    <div class="column">
+                        <img class="aligncenter size-50" src="./image/area.png">
+                    </div>
+                  </div>
+                </div>
+            </section>
+            <!-- スライド -->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/69-02.png')"></span>
+                <div class="wrap">
+                    <h2 class="text-landing">【<strong>Hand Detection</strong>】</h2>
+                    <h3 >物体検出(<strong>Object Detection</strong>)等で手を検出すること</h3>
+                    <h3 >※そのまんま</h3><br>
+                    <h3 >いろいろ手の形を試して、<br>結構検出できたので実例をご紹介したい</h3>
+                </div>
+            </section>
+            <!-- スライド -->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/69-02.png')"></span>
+                <div class="wrap">
+                    <h2>「これくらいなら当然できるよねー」とか</h2>
+                    <h2>「こんなこと出来るのかー」とか</h2>
+                    <h3>雰囲気を共有出来たら良いかな。と思ってます🙃</h3>
+                </div>
+            </section>
+            <!-- スライド -->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/69-02.png')"></span>
+                <div class="wrap">
+                    <h2>なお、全編実演デモでお送りします</h2>
+                    <h2>回線遅延等、優しい目で見てください🙃</h2>
+                </div>
+            </section>
+            <!-- スライド -->
+            <section class="bg-blue aligncenter fullscreen">
+                    <img id="demo_img" class="background-video dark" src="./image/noimage.png" alt="demoimage">
+                </div>
+                <div class="wrap">
+                    <h3 ><code>【作例①：右手・左手検出】</code></h3>
+                    <h3 ><code></code></h3>
+                    <h3 ><code>Tensorflow v2系 Object Detecton API利用</code></h3>
+                    <h3 ><code>EfficientDet-D0をファインチューニングしています</code></h3>
+                </div>
+            </section>
+            <!-- スライド -->
+            <section class="aligncenter fullscreen">
+                <div class="embed">
+                    <div class="embed">
+                        <img id="demo_img" class="background-video" src="./image/noimage.png" alt="demoimage">
+                    </div>
+                </div>
+            </section>
+            <!-- スライド -->
+            <section class="bg-blue aligncenter fullscreen">
+                <div class="embed">
+                    <img id="demo_img" class="background-video dark" src="./image/noimage.png" alt="demoimage">
+                </div>
+                <div class="wrap">
+                    <h2 class="text-landing"><code>【作例②：Finger Frame】</code></h2>
+                    <h3 ><code>いわゆる写真撮影のジェスチャー</code></h3>
+                    <h5 ><code>昭和？</code></h5>
+                </div>
+            </section>
+            <!-- スライド -->
+            <section class="aligncenter fullscreen">
+                <div class="embed">
+                    <img id="demo_img" class="background-video" src="./image/noimage.png" alt="demoimage">
+                </div>
+            </section>
+            <!-- スライド -->
+            <section class="bg-blue aligncenter fullscreen">
+                <div class="embed">
+                    <img id="demo_img" class="background-video dark" src="./image/noimage.png" alt="demoimage">
+                </div>
+                <div class="wrap">
+                    <h2 class="text-landing"><code>【作例③：NARUTOの印検出】</code></h2>
+                    <h3 ><code>組み手の12の印(子～亥)＋α(壬、合掌)</code></h3>
+                    <h5 ><code>ここまで来るとPose Estimation系のモデルでは厳しい？</code></h5>
+                </div>
+            </section>
+            <!-- スライド -->
+            <section class="aligncenter fullscreen">
+                <div class="embed">
+                    <img id="demo_img" class="background-video" src="./image/noimage.png" alt="demoimage">
+                </div>
+            </section>
+            <!-- スライド
+            <section class="bg-blue aligncenter fullscreen">
+                <div class="embed">
+                    <img id="demo_img" class="background-video dark" src="./image/noimage.png" alt="demoimage">
+                </div>
+                <div class="wrap">
+                    <h2 class="text-landing"><code>【作例③：NARUTOの印検出 おまけ】</code></h2>
+                    <h3 ><code>アニメ画像も学習しているので検出できる</code></h3>
+                </div>
+            </section> -->
+            <!-- スライド
+            <section class="aligncenter fullscreen">
+                <div class="embed">
+                    <img id="demo_img" class="background-video" src="./image/noimage.png" alt="demoimage">
+                </div>
+            </section> -->
+            <!-- スライド -->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/69-02.png')"></span>
+                <div class="wrap">
+                    <h2>まとめ</h2>
+                    <hr>
+                    <div class="grid">
+                    <div class="column">
+                        <h3>結構いろいろ検出できる🙃</h3>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <!-- スライド -->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/69-02.png')"></span>
+                <div class="wrap">
+                    <h2>追記：<strong>Q</strong>&<strong>A</strong></h2>
+                    <hr>
+                    <div class="grid">
+                    <div class="column">
+                        <h3>覚えている範囲で<strong>Q</strong>&<strong>A</strong>を追記しました。</h3>
+                        <h6>漏れていたらごめんなさい、、、</h6>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <!-- スライド -->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/69-02.png')"></span>
+                <div class="wrap">
+                    <h2>追記：<strong>Q</strong>&<strong>A</strong>①</h2>
+                    <hr>
+                    <div class="grid">
+                    <div class="column">
+                        <h3><strong>Q</strong>．何に利用する目的で作成されたのか？</h3>
+                        <h3><strong>A-1</strong>．NARUTOはただのネタです。</h3>
+                        <h3><strong>A-2</strong>．手検出は非接触操作の研究したものを<br>個人的に用意したデータで作り直しました。</h3>
+                        <h3><strong>A-3</strong>．Finger Frameは「こんな形状も検出出来る」<br>と言うデモのために作りました。</h3>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <!-- スライド -->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/69-02.png')"></span>
+                <div class="wrap">
+                    <h2>追記：<strong>Q</strong>&<strong>A</strong>②</h2>
+                    <hr>
+                    <div class="grid">
+                    <div class="column">
+                        <h3><strong>Q</strong>．右手左手の学習データは高橋のデータのみか？</h3>
+                        <h3><strong>A</strong>．今のところ高橋を撮影したデータのみです。<br>高橋に過学習している懸念があります。</h3>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <!-- スライド -->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/69-02.png')"></span>
+                <div class="wrap">
+                    <h2>追記：<strong>Q</strong>&<strong>A</strong>③</h2>
+                    <hr>
+                    <div class="grid">
+                    <div class="column">
+                        <h3><strong>Q</strong>．右手左手の検出結果はGrad-CAMなどで<br>反応しているところを見たか？</h3>
+                        <h3><strong>A</strong>．背景や周囲の体のコンテキストを含めて<br>学習しているようです。<br>学習途中では右手を左側に持っていくだけで<br>「左手」と誤検知していました</h3>
+                        <h3>ちゃんと追試したいと思ってます。</h3>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <!-- スライド -->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/69-02.png')"></span>
+                <div class="wrap">
+                    <h2>追記：<strong>Q</strong>&<strong>A</strong>④</h2>
+                    <hr>
+                    <div class="grid">
+                    <div class="column">
+                        <h3><strong>Q</strong>．そのスライドはどうやって実現しているのか？</h3>
+                        <h3><strong>A</strong>．EelとWebslidesというHTMLベースの<br>スライドソフトを用いて作成しています。</h3>
+                        <h5>詳しい実装は「https://github.com/Kazuhito00/opencv2webslides-sample」にて。</h5>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <!-- スライド -->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/69-02.png')"></span>
+                <div class="wrap">
+                    <h2>追記：<strong>Q</strong>&<strong>A</strong>⑤</h2>
+                    <hr>
+                    <div class="grid">
+                    <div class="column">
+                        <h3><strong>Q</strong>．アニメ絵を混ぜることによって<br>実写の検出率も向上したと感じた件について、<br>データ拡張のような効果が出たのか？</h3>
+                        <h3><strong>A</strong>．おそらくデータ拡張として作用したと推測しています。<br>これもちゃんと追試したいと思います。</h3>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <!-- スライド -->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/69-02.png')"></span>
+                <div class="wrap">
+                    <h2>追記：<strong>Q</strong>&<strong>A</strong>⑥</h2>
+                    <hr>
+                    <div class="grid">
+                    <div class="column">
+                        <h3><strong>Q</strong>．高橋さんのTF2の物体検出のハンズオンを<br>新人研修で使用させていただきました！</h3>
+                        <h3><strong>A</strong>．大変光栄です。ありがとうございます🙃！</h3>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <!-- スライド -->
+            <section class="aligncenter">
+                <span class="background" style="background-image:url('./image/69-02.png')"></span>
+                <div class="wrap">
+                    <h1>ご清聴ありがとうございました🙃</h1>
+                </div>
+            </section>
+        </article>
+
+        <!-- Required -->
+        <script src="./static/js/webslides.js"></script>
+        <script>
+            window.ws = new WebSlides();
+            window.ws.el.addEventListener('ws:slide-change', slideChangeEvent);
+
+            function slideChangeEvent(event) {
+                console.log("#section:" + event.detail.currentSlide);
+                eel.slide_change_event(event.detail.currentSlide)
+            }
+
+            eel.expose(set_base64image);
+            function set_base64image(base64image) {
+                console.log("base64:" + base64image);
+                document.getElementById("demo_img").src = base64image;
+            }
+        </script>
+
+        <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+        <script defer src="./static/js/svg-icons.js"></script>
+    </body>
+</html>
