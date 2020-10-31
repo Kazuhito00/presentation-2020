@@ -24,7 +24,7 @@ Jupyter notebookのプレゼンテーションはローカルにダウンロー�
 ## 10/31：【Pythonデータ分析勉強会#23】Hand Detectionを色々試してみた 2020年：EfficientDet-D0版
 ![top](https://user-images.githubusercontent.com/37477845/97774623-d4903200-1b9c-11eb-89a6-85770fb74ab2.jpg)
 
-パス：presentation_document/20201031_PythonDataAnalysis/index.html
+パス：presentation_document/20201031_PythonDataAnalysis
 
 資料： [SpeakerDeck](https://speakerdeck.com/kazuhitotakahashi/pythondataanalysis-number-23-hand-detection-2020-efficientdet-d0) / [Youtube](https://www.youtube.com/watch?v=v57Dhq525nk&feature=youtu.be)
 
