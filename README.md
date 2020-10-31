@@ -5,7 +5,8 @@
  
 * OpenCV 3.4.2
 * Eel 0.11.0
-* Tensorflow 1.14.0
+* Tensorflow 1.14.0(5/30日分発表まで)
+* Tensorflow 2.3.0(10/31日以降分)
  
 # Usage
  
@@ -20,6 +21,13 @@ python presentation.py
 Jupyter notebookのプレゼンテーションはローカルにダウンロードしてJupyterで開くか、Binderのリンクからご確認ください。
 
 # Contents
+## 10/31：【Pythonデータ分析勉強会#23】Hand Detectionを色々試してみた 2020年：EfficientDet-D0版
+![top](https://user-images.githubusercontent.com/37477845/97774623-d4903200-1b9c-11eb-89a6-85770fb74ab2.jpg)
+
+パス：presentation_document/20201031_PythonDataAnalysis/index.html
+
+資料： [SpeakerDeck](https://speakerdeck.com/kazuhitotakahashi/pythondataanalysis-number-23-hand-detection-2020-efficientdet-d0) / [Youtube](https://www.youtube.com/watch?v=v57Dhq525nk&feature=youtu.be)
+
 ## 5/30：【OSC2020 Online Nagoya】Jupyter Notebookでプレゼンテーション - 画像処理編 -
 ![top](https://user-images.githubusercontent.com/37477845/83318355-09573080-a26f-11ea-9b8b-4b27338aed2d.png)
 
