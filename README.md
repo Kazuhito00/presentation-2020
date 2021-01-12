@@ -2,7 +2,10 @@
  presentation-2020はopencv2webslidesやJupyter notebook(RISE)を用いたプレゼンテーション資料をまとめたリポジトリです。<br>
 以下を利用してプレゼンテーションを作成しています。
 * [Kazuhito00/opencv2webslides-sample](https://github.com/Kazuhito00/opencv2webslides-sample)
-* [Kazuhito00/Jupyter-VideoCapture-Demo](https://github.com/Kazuhito00/Jupyter-VideoCapture-Demo) + [RISE](https://rise.readthedocs.io/en/stable/)
+* [Kazuhito00/Jupyter-VideoCapture-Demo](https://github.com/Kazuhito00/Jupyter-VideoCapture-Demo) + [RISE](https://rise.readthedocs.io/en/stable/)<br><br>
+
+過去のリポジトリは以下です。
+* [presentation-2019](https://github.com/Kazuhito00/presentation-2019)
 
 # Requirement(opencv2webslides)
  
